@@ -14,7 +14,7 @@ const Header = () => {
       <div className="flex items-center space-x-5">
         <DarkMode />
         <Link href="/">
-          <h2 className="text-2xl">
+          <h2 className="text-2xl mx-4">
             <span className=" font-bold text-xl bg-amber-400 py-1 px-2 rounded-lg mr-2">
               IMDb
             </span>
