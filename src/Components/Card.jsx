@@ -13,7 +13,7 @@ export const Card = ({ result }) => {
           } `}
           className="sm:rounded-t-lg group-hover:opacity-90 transition-opacity duration-200"
           placeholder="blur"
-          blurDataURL="/loader.svg"
+          blurDataURL="loader.svg"
           width={500}
           height={300}
           alt="image not available"
