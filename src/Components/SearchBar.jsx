@@ -12,6 +12,8 @@ const SearchBar = () => {
 
     if (!search) return;
     router.push(`/search/${search}`);
+
+    e.target.reset();
   }
 
   return (

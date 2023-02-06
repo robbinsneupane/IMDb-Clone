@@ -11,16 +11,16 @@ export const Card = ({ result }) => {
           src={`https://image.tmdb.org/t/p/original${
             result.backdrop_path || result.poster_path
           } `}
-          className="sm:rounded-t-lg group-hover:opacity-90 transition-opacity duration-200"
-          placeholder="blur"
-          blurDataURL="loader.svg"
           width={500}
           height={300}
+          className="sm:rounded-t-lg group-hover:opacity-90 transition-opacity duration-200"
+          placeholder="blur"
+          blurDataURL="/loader.svg"
           alt="image not available"
           style={{
             maxWidth: "100%",
-            height: "auto",
-            width: "auto",
+            height: "300px",
+            objectFit: "cover",
           }}
         ></Image>
         <div className="p-2">
